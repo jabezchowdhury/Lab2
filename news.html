@@ -2,9 +2,9 @@
 =========================================================
 Name        : news.html
 Assignment  : Lab 2 Exercise C
-Author(s)   : Mahdi Ansari, William Arthur Philip Louis
-Submission  : May 21, 2030
-Description : A simple HTML file.
+Author(s)   : Jabez Chowdhury, Alex tong
+Submission  : January 24, 2024
+Description : This is Part C of lab 2.
 =========================================================
 -->
 <!DOCTYPE html>
@@ -31,7 +31,7 @@ Description : A simple HTML file.
         <article>
             <h2>Article Title</h2>
 			
-			<p>This is a paragraph in an article section. It demonstrates text formatting, like bold, italic, and marked text.</p>
+			<p>This is a paragraph in an article section. It demonstrates text formatting, like <b>bold</b>, <i>italic</i>, and <mark>marked</mark> text.</p>
 			<!-- To emphasize specific words in the paragraph, apply appropriate HTML tags: 
 			<strong> or <b> for bold text, 
 			<em> or <i> for italic text, and
@@ -52,13 +52,21 @@ Description : A simple HTML file.
         <ol>
             <li>First item</li>
             <li>Second item</li>
-			<!--Make a sub-ordered list here-->
+			    <ol>
+                    <li>Second-First item</li>
+                    <li>Second-Second item</li>
+                    <li>Second-Third item</li>
+                </ol>
             <li>Third item</li>
         </ol>
         <p>Unordered List:</p>
         <ul>
             <li>Bullet item</li>
-			<!--Make a sub-unordered list here-->
+                <ul>
+                    <li>First-Bullet item</li>
+                    <li>Second-Another bullet item</li>
+                    <li>Third-Yet another bullet item</li>
+                </ul>
             <li>Another bullet item</li>
             <li>Yet another bullet item</li>
         </ul>
@@ -74,7 +82,7 @@ Description : A simple HTML file.
             <dt>HTML</dt>
             <dd>Hypertext Markup Language.</dd>
 			<dt>CSS</dt>
-            <dd><!--Add CSS definition here--></dd>
+            <dd>Cascading Style Sheets</dd>
         </dl>
 		
         
@@ -104,8 +112,8 @@ Description : A simple HTML file.
 			<tfoot>
 				<tr>
 					<td>Total</td>
-					<td><!--Put column total here--></td>
-					<td><!--Put column total here--></td>
+					<td>$3800</td>
+					<td>$2700</td>
 				</tr>
 			</tfoot>
         </table>
